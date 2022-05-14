@@ -12,3 +12,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function generatePassword() {
+  var size = prompt("size of password")
+  console.log(size)
+}
+
+var passwordLength = 8;
+console.log(length)
