@@ -7,6 +7,7 @@ var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var writepassword = document.querySelector("password");
 
 // Write password to the #password input
 function writePassword() {
@@ -18,6 +19,7 @@ function writePassword() {
 }
 
 // Add event listener to generate button
+generateBtn.addEventListener("click", enterPassword);
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
