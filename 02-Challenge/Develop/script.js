@@ -29,3 +29,7 @@ function generatePassword() {
 
 var passwordLength = 8;
 console.log(length)
+
+function generatePassword() {
+  characerLength = parseInt(prompt('How many characters would you like for your password?'))
+}
